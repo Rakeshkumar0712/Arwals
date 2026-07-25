@@ -1,6 +1,4 @@
-# ai-docs/16-deployment-standards.md
 
-```markdown
 # Deployment Standards
 
 **Document:** `ai-docs/16-deployment-standards.md`

@@ -771,4 +771,3 @@ Every deployment described in this document — to Development, QA, Staging, or 
 This document, `ai-docs/16-deployment-standards.md`, is the seventeenth phase of approximately 300. Every environment provisioned, every container built, and every release promoted in the phases that follow is expected to satisfy the standards defined here, or to justify its deviation in writing.
 
 **End of Phase 17 — `ai-docs/16-deployment-standards.md`**
-```

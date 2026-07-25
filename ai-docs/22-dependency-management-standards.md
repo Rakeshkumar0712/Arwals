@@ -325,11 +325,11 @@ Arwal requires every dependency selected to follow [Semantic Versioning](https:/
 ```mermaid
 graph LR
     A[4.18.2] -->|PATCH: bug fix| B[4.18.3]
-    A -->|MINOR: new feature,<br/>backward-compatible| C[4.19.0]
+    A -->|MINOR: new feature<br/>backward-compatible| C[4.19.0]
     A -->|MAJOR: breaking change| D[5.0.0]
-    B -.caret ^4.18.2 allows.-> B
-    C -.caret ^4.18.2 allows.-> C
-    D -.caret ^4.18.2 forbids.-> D
+    B -. "^4.18.2 allows" .-> B
+    C -. "^4.18.2 allows" .-> C
+    D -. "^4.18.2 forbids" .-> D
     style D fill:#c0392b,color:#fff
 ```
 
@@ -415,7 +415,7 @@ graph TD
     Root[Monorepo Root<br/>turborepo, root eslint/ts config only]
     Root --> Apps[apps/*]
     Root --> Packages[packages/*]
-    Apps --> API[apps/api<br/>@nestjs/core, prisma, zod]
+    Apps --> API["apps/api<br/>@nestjs/core, prisma, zod"]
     Apps --> Web[apps/web<br/>next, react, zod]
     Apps --> Admin[apps/admin-web<br/>next, react]
     Packages --> UI[packages/ui<br/>react — peer dependency]

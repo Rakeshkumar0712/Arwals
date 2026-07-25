@@ -273,7 +273,7 @@ graph TD
     A[Process Starts] --> B[Load raw environment variables]
     B --> C[Parse against EnvSchema — Zod]
     C --> D{Validation Passes?}
-    D -->|No| E[Log specific failing field(s)<br/>Exit process, non-zero code]
+    D -->|No| E["Log specific failing field(s)<br/>Exit process, non-zero code"]
     D -->|Yes| F[Freeze validated, typed Env object]
     F --> G[Initialize DB pool, Redis, queues,<br/>using validated config only]
     G --> H[Register HTTP listener]

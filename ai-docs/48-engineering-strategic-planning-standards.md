@@ -263,7 +263,7 @@ Every Key Result is specific, numeric, and independently verifiable — restatin
 
 ### OKR Template
 
-```markdown
+
 ## Objective: <Ambitious, qualitative statement of intent>
 **Strategic Theme:** <Parent Theme>
 **Owner:** <Named individual — Director level or above>
@@ -276,11 +276,10 @@ Every Key Result is specific, numeric, and independently verifiable — restatin
 
 ### Confidence Score (0.0-1.0, updated at each check-in)
 ### Supporting Initiatives (per Strategic Investment Governance)
-```
+
 
 ### Example OKR
 
-```markdown
 ## Objective: Make Arwal's core citizen flows reliably fast on real district networks
 **Strategic Theme:** Citizen Experience
 **Owner:** VP Engineering
@@ -293,7 +292,6 @@ Every Key Result is specific, numeric, and independently verifiable — restatin
 
 ### Confidence Score: 0.7 (mid-quarter check-in)
 ### Supporting Initiatives: INIT-0014 (Network Throttled E2E Suite), INIT-0019 (Offline Queue Rework)
-```
 
 ### Ownership and Review Cadence
 
